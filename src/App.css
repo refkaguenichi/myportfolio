@@ -19,7 +19,7 @@ body {
 }
 
 section {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 dl,
@@ -111,7 +111,6 @@ ul {
 /* Navbar */
 /* Profile section */
 .profile {
-  padding: 100px 0;
   text-align: center;
   height: 10%;
   min-height: fit-content;
@@ -298,6 +297,7 @@ ul {
 
 /* About section */
 .about {
+  padding: 80px 0;
   display: flex;
   justify-content: center;
 }
@@ -434,22 +434,27 @@ footer {
 }
 
 .projects .proj-content .proj-card {
+  height: 150px;
   background: #1f2235;
   border-radius: 6px;
   padding: 20px 25px;
   cursor: pointer;
   color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .projects .proj-content .proj-card:hover {
-  background: crimson;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transform: scale(1.02);
+  opacity: 1;
 }
 
 .projects .proj-content .proj-card .icon {
   font-size: 30px;
   color: #fff;
+}
+
+.links-icons {
+  color: crimson;
 }
 
 @media screen and (max-width: 460px) {
@@ -606,7 +611,7 @@ footer {
 }
 
 .skills .skills-content .left .vue::before {
-  width: 85%;
+  width: 70%;
 }
 
 .skills .skills-content .left .node::before {
@@ -630,15 +635,15 @@ footer {
 }
 
 .skills .skills-content .right .mysql::before {
-  width: 75%;
+  width: 65%;
 }
 
 .skills .skills-content .right .php::before {
-  width: 75%;
+  width: 65%;
 }
 
 .skills .skills-content .right .python::before {
-  width: 75%;
+  width: 65%;
 }
 
 @media screen and (max-width: 460px) {
@@ -659,6 +664,7 @@ footer {
 
 /* Contact me section */
 .contactme {
+  padding: 80px 0;
   background-color: #1f2235;
   color: #fff;
 }

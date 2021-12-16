@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import { FaHome, FaBars } from "react-icons/fa";
 
-const Navbar = () => {
+const Navbar = ({ handleOpen }) => {
   return (
     <nav className="main-navbar">
       <div className="max-width">
@@ -32,7 +32,7 @@ const Navbar = () => {
             <Link to="contactme">Contact</Link>
           </li>
         </ul>
-        <FaBars className="menu-btn" />
+        <FaBars className="menu-btn" onClick={handleOpen} />
       </div>
     </nav>
   );

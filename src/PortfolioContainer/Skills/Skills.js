@@ -16,14 +16,14 @@ const Skills = () => {
             </div>
             <div className="bars">
               <div className="info">
-                <span>CSS/SCSS</span>
+                <span>CSS</span>
                 <span>95%</span>
               </div>
               <div className="line css-scss"></div>
             </div>
             <div className="bars">
               <div className="info">
-                <span>JS/TS</span>
+                <span>JS</span>
                 <span>90%</span>
               </div>
               <div className="line js-ts"></div>
@@ -37,15 +37,8 @@ const Skills = () => {
             </div>
             <div className="bars">
               <div className="info">
-                <span>Angular</span>
-                <span>85%</span>
-              </div>
-              <div className="line angular"></div>
-            </div>
-            <div className="bars">
-              <div className="info">
                 <span>Vue</span>
-                <span>85%</span>
+                <span>75%</span>
               </div>
               <div className="line vue"></div>
             </div>
@@ -81,29 +74,22 @@ const Skills = () => {
             </div>
             <div className="bars">
               <div className="info">
-                <span>Java</span>
-                <span>80%</span>
-              </div>
-              <div className="line java"></div>
-            </div>
-            <div className="bars">
-              <div className="info">
                 <span>My SQL</span>
-                <span>75%</span>
+                <span>65%</span>
               </div>
               <div className="line mysql"></div>
             </div>
             <div className="bars">
               <div className="info">
                 <span>PHP</span>
-                <span>75%</span>
+                <span>65%</span>
               </div>
               <div className="line php"></div>
             </div>
             <div className="bars">
               <div className="info">
                 <span>Python</span>
-                <span>75%</span>
+                <span>65%</span>
               </div>
               <div className="line python"></div>
             </div>

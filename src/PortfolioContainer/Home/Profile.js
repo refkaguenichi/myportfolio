@@ -23,7 +23,7 @@ const Profile = () => {
               >
                 <i class="fa fa-github"></i>
               </a>
-              <a
+              {/* <a
                 href="https://www.facebook.com/rebe.kah.524/"
                 rel="noreferrer"
                 target="_blank"
@@ -36,7 +36,7 @@ const Profile = () => {
                 target="_blank"
               >
                 <i class="fa fa-instagram"></i>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="profile-details-name">
@@ -49,16 +49,16 @@ const Profile = () => {
           <div className="profile-role ">
             <h1 className="third-text">
               {""}
-              <span>And I'm a </span>
+              {/* <span>And I'm a </span> */}
               <Typical
                 className="highlighted-text"
                 loop={Infinity}
                 steps={[
-                  "Fullstack Developer🔴",
+                  "Fullstack Engineer🔴",
                   1000,
-                  "Frontend Developer⚛️",
+                  "Frontend Engineer⚛️",
                   1000,
-                  "Backend Developer💻",
+                  "Backend Engineer💻",
                   1000,
                 ]}
               />

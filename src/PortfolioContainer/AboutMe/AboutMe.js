@@ -13,14 +13,15 @@ const AboutMe = () => {
           </div>
           <div className="column right">
             <div className="text">
-              I'm Refka and I'm a <span>Web developer</span>
+              <span>I'm a Fullstack engineer</span>
             </div>
             <p>
-              Passionate and self-motivated Advanced Technologies enginner.
-              Excited to be at the deployment phase of my new career as a web
-              developer. I am ambitious, adventurous, assiduous, animated, and
-              an alliteration advocate.My aim is to realize new challenges and
-              join a huge company which is leader in the new technologies field.
+              Gratuated as an Advanced Technologies engineer from ENSTAB.
+              Passionate, self-motivated and team-worker, excited to be at the
+              deployment phase of my new career as a web developer. I am
+              ambitious, adventurous, assiduous, animated and an alliteration
+              advocate.My aim is to realize new challenges and join a huge
+              company which is leader in the new technologies field.
             </p>
             <a href={cv} download="Refka Guenichi CV.pdf">
               <button className="btn highlighted-btn">Donwload CV</button>
