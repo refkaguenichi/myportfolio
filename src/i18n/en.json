@@ -1,0 +1,146 @@
+{
+  "common": {
+    "translate-button": "EN",
+    "translated-text": "This is english"
+  },
+  "logo": {
+    "translate-button": "EN",
+    "translated-text": "Refka's portfolio"
+  },
+  "about": {
+    "translate-button": "EN",
+    "translated-text": "About"
+  },
+  "skills": {
+    "translate-button": "EN",
+    "translated-text": "Skills"
+  },
+  "projects": {
+    "translate-button": "EN",
+    "translated-text": "Projects"
+  },
+  "contact": {
+    "translate-button": "EN",
+    "translated-text": "Contact"
+  },
+  "salutation": {
+    "translate-button": "EN",
+    "translated-text": "Hello, my name is"
+  },
+  "fullstack": {
+    "translate-button": "EN",
+    "translated-text": "Fullstack Engineer🔴"
+  },
+  "frontend": {
+    "translate-button": "EN",
+    "translated-text": "Frontend Engineer⚛️"
+  },
+  "backend": {
+    "translate-button": "EN",
+    "translated-text": "Backend Engineer💻"
+  },
+  "hire_me": {
+    "translate-button": "EN",
+    "translated-text": "Hire me"
+  },
+  "about_me": {
+    "translate-button": "EN",
+    "translated-text": "About me"
+  },
+  "about_me_who": {
+    "translate-button": "EN",
+    "translated-text": "Who I am"
+  },
+  "about_me_title": {
+    "translate-button": "EN",
+    "translated-text": "I'm a Fullstack engineer"
+  },
+  "about_me_paragraph": {
+    "translate-button": "EN",
+    "translated-text": "Gratuated as an Advanced Technologies engineer from ENSTAB. Passionate, self-motivated and team-worker, excited to be at the deployment phase of my new career as a web developer. I am ambitious, adventurous, assiduous, animated and an alliteration advocate.My aim is to realize new challenges and join a huge company which is leader in the new technologies field."
+  },
+  "about_me_cv": {
+    "translate-button": "EN",
+    "translated-text": "Download CV"
+  },
+  "my_skills": {
+    "translate-button": "EN",
+    "translated-text": "My skills"
+  },
+  "projects_what": {
+    "translate-button": "EN",
+    "translated-text": "What I did"
+  },
+  "contact_me": {
+    "translate-button": "EN",
+    "translated-text": "Contact_me"
+  },
+  "contact_me_touch": {
+    "translate-button": "EN",
+    "translated-text": "Get in touch"
+  },
+  "message_me": {
+    "translate-button": "EN",
+    "translated-text": "Message me"
+  },
+  "name": {
+    "translate-button": "EN",
+    "translated-text": "Name"
+  },
+  "enter_name": {
+    "translate-button": "EN",
+    "translated-text": "Enter your name"
+  },
+  "enter_email": {
+    "translate-button": "EN",
+    "translated-text": "Enter your Email"
+  },
+  "subject": {
+    "translate-button": "EN",
+    "translated-text": "Subject"
+  },
+  "enter_subject": {
+    "translate-button": "EN",
+    "translated-text": "Subject of your message"
+  },
+  "object": {
+    "translate-button": "EN",
+    "translated-text": "Object"
+  },
+  "enter_object": {
+    "translate-button": "EN",
+    "translated-text": "Message object"
+  },
+  "full_name": {
+    "translate-button": "EN",
+    "translated-text": "FullName"
+  },
+  "address": {
+    "translate-button": "EN",
+    "translated-text": "Address"
+  },
+  "address_exact": {
+    "translate-button": "EN",
+    "translated-text": "El Mourouj 6, 2074 Ben arous, Tunisia"
+  },
+  "phone": {
+    "translate-button": "EN",
+    "translated-text": "Phone"
+  },
+  "footer_one": {
+    "translate-button": "EN",
+    "translated-text": "made to know more about my profile."
+  },
+  "footer_two": {
+    "translate-button": "EN",
+    "translated-text": "All rights reserved."
+  },
+  "project_one": {
+    "translate-button": "EN",
+    "translated-text": "Lost and Found application,it helps users to tarck their objects."
+  },
+  "project_two": {
+    "translate-button": "EN",
+    "translated-text": "E-commerce that facilitates the sale/purchase online, using Paypal as a payment method."
+  }
+}

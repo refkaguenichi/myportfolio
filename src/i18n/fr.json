@@ -1,0 +1,146 @@
+{
+  "common": {
+    "translate-button": "FR",
+    "translated-text": "C'est du français"
+  },
+  "logo": {
+    "translate-button": "FR",
+    "translated-text": "Portfolio de Refka"
+  },
+  "about": {
+    "translate-button": "FR",
+    "translated-text": "A propos de moi"
+  },
+  "skills": {
+    "translate-button": "FR",
+    "translated-text": "Compétences"
+  },
+  "projects": {
+    "translate-button": "FR",
+    "translated-text": "Projets"
+  },
+  "contact": {
+    "translate-button": "FR",
+    "translated-text": "Contactez moi"
+  },
+  "salutation": {
+    "translate-button": "FR",
+    "translated-text": "Bonjour, je suis"
+  },
+  "fullstack": {
+    "translate-button": "FR",
+    "translated-text": "Ingénieur Fullstack🔴"
+  },
+  "frontend": {
+    "translate-button": "FR",
+    "translated-text": "Ingénieur Frontend⚛️"
+  },
+  "backend": {
+    "translate-button": "FR",
+    "translated-text": "Ingénieur Backend💻"
+  },
+  "hire_me": {
+    "translate-button": "FR",
+    "translated-text": "M'embaucher"
+  },
+  "about_me": {
+    "translate-button": "FR",
+    "translated-text": "A propos de moi"
+  },
+  "about_me_who": {
+    "translate-button": "FR",
+    "translated-text": "Qui suis-je"
+  },
+  "about_me_title": {
+    "translate-button": "FR",
+    "translated-text": "Je suis une ingénieur Fullstack"
+  },
+  "about_me_paragraph": {
+    "translate-button": "FR",
+    "translated-text": "Etant Ingénieure en Technologies Avancées issue de l'ENSTAB. Passionnée, motivée et ayant l'esprit d'équipe, ravi d'être à la phase de déploiement de ma nouvelle carrière de développeur web. Je suis ambitieuse, aventureuse, assidue, animée et adepte de l'allitération. Mon objectif est de relever de nouveaux défis et de rejoindre une grande entreprise leader dans le domaine des nouvelles technologies."
+  },
+  "about_me_cv": {
+    "translate-button": "FR",
+    "translated-text": "Téléchargez CV"
+  },
+  "my_skills": {
+    "translate-button": "FR",
+    "translated-text": "Mes compétances"
+  },
+  "projects_what": {
+    "translate-button": "FR",
+    "translated-text": "Ce que j'ai fait"
+  },
+  "contact_me": {
+    "translate-button": "FR",
+    "translated-text": "Contactez moi"
+  },
+  "contact_me_touch": {
+    "translate-button": "FR",
+    "translated-text": "Entrer en contact"
+  },
+  "message_me": {
+    "translate-button": "FR",
+    "translated-text": "Envoyez moi un message"
+  },
+  "name": {
+    "translate-button": "FR",
+    "translated-text": "Nom"
+  },
+  "enter_name": {
+    "translate-button": "FR",
+    "translated-text": "Entrez votre nom"
+  },
+  "enter_email": {
+    "translate-button": "FR",
+    "translated-text": "Entrez votre Email"
+  },
+  "subject": {
+    "translate-button": "FR",
+    "translated-text": "Sujet"
+  },
+  "enter_subject": {
+    "translate-button": "FR",
+    "translated-text": "Sujet de votre message"
+  },
+  "object": {
+    "translate-button": "FR",
+    "translated-text": "Objet"
+  },
+  "enter_object": {
+    "translate-button": "FR",
+    "translated-text": "Objet de votre message"
+  },
+  "full_name": {
+    "translate-button": "FR",
+    "translated-text": "Nom et prénom"
+  },
+  "address": {
+    "translate-button": "FR",
+    "translated-text": "Adresse"
+  },
+  "address_exact": {
+    "translate-button": "FR",
+    "translated-text": "El Mourouj 6, 2074 Ben arous, Tunisie"
+  },
+  "phone": {
+    "translate-button": "FR",
+    "translated-text": "Téléphone"
+  },
+  "footer_one": {
+    "translate-button": "FR",
+    "translated-text": "fait pour en savoir plus sur mon profil."
+  },
+  "footer_two": {
+    "translate-button": "FR",
+    "translated-text": "Tous les droits sont réservés."
+  },
+  "project_one": {
+    "translate-button": "FR",
+    "translated-text": "Application Lost and Found, elle aide les utilisateurs à traquer leurs objets."
+  },
+  "project_two": {
+    "translate-button": "FR",
+    "translated-text": "E-commerce qui facilite la vente/achat, en ligne, en utilisant Paypal comme méthode de payment."
+  }
+}
