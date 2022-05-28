@@ -1,10 +1,10 @@
 import React from "react";
 
-const Skills = () => {
+const Skills = ({t}) => {
   return (
     <section className="skills" id="skills">
       <div className="max-width">
-        <h2 className="title">Skills</h2>
+        <h2 className="title">{t("skills.translated-text")}</h2>
         <div className="skills-content">
           <div className="column left">
             <div className="bars">

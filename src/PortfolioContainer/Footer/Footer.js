@@ -1,13 +1,21 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = ({t}) => {
   return (
     <footer>
-      <span className="foot-name">
-        Portfo<span className="foot-name-part">lio.</span>
+      <span
+        style={{ "font-size": "30px", "font-weight": "600", color: "#fff" }}
+      >
+        rg
       </span>
-      , made to know more about my profile.
-      <span> &copy; {1900 + new Date().getYear()} All rights reserved. </span>
+      <span style={{ "font-size": "18px", "font-weight": "100", color:"crimson" }}>
+        portfolio
+      </span>
+      , {t("footer_one.translated-text")}
+      <span>
+        {" "}
+        &copy; {1900 + new Date().getYear()} {t("footer_two.translated-text")}{" "}
+      </span>
     </footer>
   );
 };

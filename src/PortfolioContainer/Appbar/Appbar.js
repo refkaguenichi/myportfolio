@@ -3,7 +3,7 @@ import { useState } from "react";
 import Sidebar from "./../Sidebar/Sidebar";
 import Navbar from "./../Navbar/Navbar";
 
-const Appbar = () => {
+const Appbar = ({t}) => {
   const [isOpen, setIsOpen] = useState(false);
   const handleOpen = () => {
     setIsOpen(!isOpen);
@@ -11,8 +11,8 @@ const Appbar = () => {
 
   return (
     <>
-      <Sidebar isOpen={isOpen} handleOpen={handleOpen} />
-      <Navbar handleOpen={handleOpen} />
+      <Sidebar isOpen={isOpen} handleOpen={handleOpen} t={t}/>
+      <Navbar handleOpen={handleOpen} t={t} />
     </>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import Typical from "react-typical";
 
-const Profile = () => {
+const Profile = ({t}) => {
   return (
     <section className="profile" id="home">
       <div className="profile-parent">
@@ -23,26 +23,12 @@ const Profile = () => {
               >
                 <i class="fa fa-github"></i>
               </a>
-              {/* <a
-                href="https://www.facebook.com/rebe.kah.524/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <i class="fa fa-facebook-square"></i>
-              </a>
-              <a
-                href="https://www.instagram.com/refka_guenichi/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <i class="fa fa-instagram"></i>
-              </a> */}
             </div>
           </div>
           <div className="profile-details-name">
             <span className="primary-text">
               {""}
-              Hello, my name is
+              {t("salutation.translated-text")}
               <h2 className="secondary-text"> Refka Guenichi</h2>
             </span>
           </div>
@@ -54,11 +40,11 @@ const Profile = () => {
                 className="highlighted-text"
                 loop={Infinity}
                 steps={[
-                  "Fullstack Engineer🔴",
+                  t("fullstack.translated-text"),
                   1000,
-                  "Frontend Engineer⚛️",
+                  t("frontend.translated-text"),
                   1000,
-                  "Backend Engineer💻",
+                  t("backend.translated-text"),
                   1000,
                 ]}
               />
@@ -66,7 +52,7 @@ const Profile = () => {
           </div>
           <div className="profile-options">
             <button className="btn primary-btn">
-              <Link to="contactme"> Hire Me</Link>
+              <Link to="contactme">{t("hire_me.translated-text")}</Link>
             </button>
           </div>
         </div>

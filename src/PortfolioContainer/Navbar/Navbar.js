@@ -1,16 +1,32 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { FaHome, FaBars } from "react-icons/fa";
+import Lang from './../Lang/Lang';
 
-const Navbar = ({ handleOpen }) => {
+const Navbar = ({ handleOpen, t }) => {
   return (
     <nav className="main-navbar">
       <div className="max-width">
         <div className="logo">
           <Link to="home">
-            {" "}
-            Portfo
-            <span>lio.</span>
+            <span
+              style={{
+                "font-size": "45px",
+                "font-weight": "700",
+                color: "#fff",
+              }}
+            >
+              rg
+            </span>
+            <span
+              style={{
+                "font-size": "18px",
+                "font-weight": "100",
+                color: "crimson",
+              }}
+            >
+              portfolio.
+            </span>
           </Link>
         </div>
         <ul className="menu">
@@ -20,16 +36,19 @@ const Navbar = ({ handleOpen }) => {
             </Link>
           </li>
           <li>
-            <Link to="about">About</Link>
+            <Link to="about">{t("about.translated-text")}</Link>
           </li>
           <li>
-            <Link to="skills">Skills</Link>
+            <Link to="skills">{t("skills.translated-text")}</Link>
           </li>
           <li>
-            <Link to="projects">Projects</Link>
+            <Link to="projects">{t("projects.translated-text")}</Link>
           </li>
           <li>
-            <Link to="contactme">Contact</Link>
+            <Link to="contactme">{t("contact.translated-text")}</Link>
+          </li>
+          <li>
+            <Lang />
           </li>
         </ul>
         <FaBars className="menu-btn" onClick={handleOpen} />

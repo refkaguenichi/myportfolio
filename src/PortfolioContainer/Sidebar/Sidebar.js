@@ -9,8 +9,9 @@ import {
 } from "../../common/SidebarElements";
 import "./Sidebar.css";
 import { FaHome } from "react-icons/fa";
+import Lang from "./../Lang/Lang";
 
-const Sidebar = ({ isOpen, handleOpen }) => {
+const Sidebar = ({ isOpen, handleOpen, t }) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={handleOpen} className="sidebar">
       <Icon onClick={handleOpen}>
@@ -22,16 +23,19 @@ const Sidebar = ({ isOpen, handleOpen }) => {
             <FaHome className="home-icon" />
           </SidebarLink>
           <SidebarLink to="about" onClick={handleOpen}>
-            About
+            {t("about.translated-text")}
           </SidebarLink>
           <SidebarLink to="skills" onClick={handleOpen}>
-            Skills
+            {t("skills.translated-text")}
           </SidebarLink>
           <SidebarLink to="projects" onClick={handleOpen}>
-            Projects
+            {t("projects.translated-text")}
           </SidebarLink>
           <SidebarLink to="contactme" onClick={handleOpen}>
-            Contact
+            {t("contact.translated-text")}
+          </SidebarLink>
+          <SidebarLink to="" onClick={handleOpen}>
+            <Lang />
           </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>

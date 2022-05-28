@@ -6,17 +6,19 @@ import Skills from "./PortfolioContainer/Skills/Skills";
 import ContactMe from "./PortfolioContainer/ContactMe/ContactMe";
 import Footer from "./PortfolioContainer/Footer/Footer";
 import Appbar from "./PortfolioContainer/Appbar/Appbar";
+import { useTranslation } from "react-i18next";
 
 function App() {
+  const { t } = useTranslation();
   return (
     <div className="App">
-      <Appbar />
-      <Profile />
-      <AboutMe />
-      <Skills />
-      <Projects />
-      <ContactMe />
-      <Footer />
+      <Appbar t={t} />
+      <Profile t={t} />
+      <AboutMe t={t} />
+      <Skills t={t} />
+      <Projects t={t} />
+      <ContactMe t={t} />
+      <Footer t={t} />
     </div>
   );
 }

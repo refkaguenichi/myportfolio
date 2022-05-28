@@ -2,29 +2,24 @@ import React from "react";
 import image from "../../assets/About/graduation.png";
 import cv from "../../assets/About/refka-cv.pdf";
 
-const AboutMe = () => {
+const AboutMe = ({t}) => {
   return (
     <section className="about" id="about">
       <div className="max-width">
-        <h2 className="title">About me</h2>
+        <h2 className="title">{t("about.translated-text")}</h2>
         <div className="about-content">
           <div className="column left">
             <img src={image} alt="about" />
           </div>
           <div className="column right">
             <div className="text">
-              <span>I'm a Fullstack engineer</span>
+              <span>{t("about_me_title.translated-text")}</span>
             </div>
-            <p>
-              Gratuated as an Advanced Technologies engineer from ENSTAB.
-              Passionate, self-motivated and team-worker, excited to be at the
-              deployment phase of my new career as a web developer. I am
-              ambitious, adventurous, assiduous, animated and an alliteration
-              advocate.My aim is to realize new challenges and join a huge
-              company which is leader in the new technologies field.
-            </p>
+            <p>{t("about_me_paragraph.translated-text")}</p>
             <a href={cv} download="Refka Guenichi CV.pdf">
-              <button className="btn highlighted-btn">Donwload CV</button>
+              <button className="btn highlighted-btn">
+                {t("about_me_cv.translated-text")}
+              </button>
             </a>
           </div>
         </div>

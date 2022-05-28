@@ -4,35 +4,35 @@ import { BsPerson, BsTelephone } from "react-icons/bs";
 import { BiMap } from "react-icons/bi";
 import { FiSend } from "react-icons/fi";
 
-const ContactMe = () => {
+const ContactMe = ({t}) => {
   return (
     <section className="contactme" id="contactme">
       <div className="max-width">
-        <h2 className="title">Contact me</h2>
+        <h2 className="title">{t("contact.translated-text")}</h2>
         <div className="contactme-content">
           <div className="column left">
             <div className="icons">
               <div className="contactme-row">
                 <BsPerson className="icon" />
                 <div className="info">
-                  <div className="head">FullName:</div>
+                  <div className="head">{t("full_name.translated-text")}:</div>
                   <div className="sub-title">Refka Guenichi</div>
                 </div>
               </div>
               <div className="contactme-row">
                 <BiMap className="icon" />
                 <div className="info">
-                  <div className="head">Address:</div>
+                  <div className="head">{t("address.translated-text")}:</div>
                   <div className="sub-title">
-                    El Mourouj 6, Ben arous, Tunisia
+                    {t("address_exact.translated-text")}
                   </div>
                 </div>
               </div>
               <div className="contactme-row">
                 <BsTelephone className="icon" />
                 <div className="info">
-                  <div className="head">Phone:</div>
-                  <div className="sub-title">+21652957580 | +21651468641</div>
+                  <div className="head">{t("phone.translated-text")}:</div>
+                  <div className="sub-title">+21652957580</div>
                 </div>
               </div>
               <div className="contactme-row">
@@ -45,7 +45,7 @@ const ContactMe = () => {
             </div>
           </div>
           <div className="column right">
-            <div className="text">Message me</div>
+            <div className="text">{t("message_me.translated-text")}</div>
             <form
               action="https://formsubmit.co/refkaguenichi@gmail.com"
               method="POST"
@@ -61,11 +61,11 @@ const ContactMe = () => {
                 <input type="hidden" name="_template" value="table" />
                 <input type="hidden" name="_subject" value="New submission!" />
                 <div className="field name">
-                  <label>Name*</label>
+                  <label>{t("name.translated-text")}*</label>
                   <input
                     type="text"
                     name="name"
-                    placeholder="Enter your name"
+                    placeholder={t("enter_name.translated-text")}
                     required
                   />
                 </div>
@@ -74,22 +74,25 @@ const ContactMe = () => {
                   <input
                     type="email"
                     name="email"
-                    placeholder="Enter your email"
+                    placeholder={t("enter_email.translated-text")}
                     required
                   />
                 </div>
               </div>
               <div className="field">
-                <label>Subject</label>
-                <input type="text" placeholder="Subject of your message" />
+                <label>{t("subject.translated-text")}</label>
+                <input
+                  type="text"
+                  placeholder={t("enter_subject.translated-text")}
+                />
               </div>
               <div className="field textarea">
-                <label>Object*</label>
+                <label>{t("object.translated-text")}*</label>
                 <textarea
                   cols="30"
                   rows="10"
                   name="object"
-                  placeholder="Message object"
+                  placeholder={t("enter_object.translated-text")}
                   required
                 ></textarea>
               </div>
