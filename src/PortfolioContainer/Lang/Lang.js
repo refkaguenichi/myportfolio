@@ -23,7 +23,7 @@ const Lang = () => {
  
     return (
       <span onClick={changeLanguage} className="lang">
-        <IoLanguage size={25} />
+        <IoLanguage size={20} />
         <span>{lang === "en" ? "EN" : "FR"}</span>
       </span>
     );

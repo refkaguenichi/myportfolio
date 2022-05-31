@@ -24,7 +24,7 @@ const Skills = ({t}) => {
             <div className="bars">
               <div className="info">
                 <span>JS</span>
-                <span>90%</span>
+                <span>95%</span>
               </div>
               <div className="line js-ts"></div>
             </div>
@@ -38,7 +38,7 @@ const Skills = ({t}) => {
             <div className="bars">
               <div className="info">
                 <span>Vue</span>
-                <span>75%</span>
+                <span>90%</span>
               </div>
               <div className="line vue"></div>
             </div>
@@ -74,8 +74,8 @@ const Skills = ({t}) => {
             </div>
             <div className="bars">
               <div className="info">
-                <span>My SQL</span>
-                <span>65%</span>
+                <span>PostgreSQL</span>
+                <span>90%</span>
               </div>
               <div className="line mysql"></div>
             </div>

@@ -57,7 +57,7 @@
   },
   "about_me_paragraph": {
     "translate-button": "FR",
-    "translated-text": "Etant Ingénieure en Technologies Avancées issue de l'ENSTAB. Passionnée, motivée et ayant l'esprit d'équipe, ravi d'être à la phase de déploiement de ma nouvelle carrière de développeur web. Je suis ambitieuse, aventureuse, assidue, animée et adepte de l'allitération. Mon objectif est de relever de nouveaux défis et de rejoindre une grande entreprise leader dans le domaine des nouvelles technologies."
+    "translated-text": "Etant ingénieure full stack, passionnée, autonome et ayant l'esprit de travailler en équipe. Excitée de rejoindre une structure solide et leader dans le domaine des nouvelles technologies pour relever plusieurs challenges."
   },
   "about_me_cv": {
     "translate-button": "FR",
@@ -142,5 +142,29 @@
   "project_two": {
     "translate-button": "FR",
     "translated-text": "E-commerce qui facilite la vente/achat, en ligne, en utilisant Paypal comme méthode de payment."
+  },
+  "work_at": {
+    "translate-button": "FR",
+    "translated-text": "Je travaille chez"
+  },
+  "work_one": {
+    "translate-button": "FR",
+    "translated-text": "Développement de PodiumESG, c'est une marketplace pour Podium360 (Produit Podyam)."
+  },
+  "work_two": {
+    "translate-button": "FR",
+    "translated-text": "Développement des pages Web réactives et de graphiques interactifs affichant l'activité de l'utilisateur sur le produit."
+  },
+  "work_three": {
+    "translate-button": "FR",
+    "translated-text": "Mis en œuvre d'un mécanisme de recherche global plus rapide dans l'ensemble de l'application Elastic search."
+  },
+  "work_four": {
+    "translate-button": "FR",
+    "translated-text": "Travailler dans une équipe Agile en mettant l'accent sur le développement d'interface utilisateur et admin."
+  },
+  "position": {
+    "translate-button": "FR",
+    "translated-text": "Poste actuel"
   }
 }

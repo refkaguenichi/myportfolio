@@ -1,8 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import image from "../../assets/About/graduation.png";
-import cv from "../../assets/About/refka-cv.pdf";
+import cv from "../../assets/About/english_cv.pdf";
+import cv2 from "../../assets/About/french_cv.pdf";
 
 const AboutMe = ({t}) => {
+  const { i18n } = useTranslation();
   return (
     <section className="about" id="about">
       <div className="max-width">
@@ -16,7 +19,10 @@ const AboutMe = ({t}) => {
               <span>{t("about_me_title.translated-text")}</span>
             </div>
             <p>{t("about_me_paragraph.translated-text")}</p>
-            <a href={cv} download="Refka Guenichi CV.pdf">
+            <a
+              href={i18n.language === "fr" ? cv2 : cv}
+              download="Refka Guenichi CV.pdf"
+            >
               <button className="btn highlighted-btn">
                 {t("about_me_cv.translated-text")}
               </button>

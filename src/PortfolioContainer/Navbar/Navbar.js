@@ -39,6 +39,9 @@ const Navbar = ({ handleOpen, t }) => {
             <Link to="about">{t("about.translated-text")}</Link>
           </li>
           <li>
+            <Link to="occupation">{t("position.translated-text")}</Link>
+          </li>
+          <li>
             <Link to="skills">{t("skills.translated-text")}</Link>
           </li>
           <li>

@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-scroll";
 import Typical from "react-typical";
+import { useTranslation } from "react-i18next";
 
 const Profile = ({t}) => {
+  const { i18n } = useTranslation();
   return (
     <section className="profile" id="home">
       <div className="profile-parent">
@@ -36,18 +38,34 @@ const Profile = ({t}) => {
             <h1 className="third-text">
               {""}
               {/* <span>And I'm a </span> */}
-              <Typical
-                className="highlighted-text"
-                loop={Infinity}
-                steps={[
-                  t("fullstack.translated-text"),
-                  1000,
-                  t("frontend.translated-text"),
-                  1000,
-                  t("backend.translated-text"),
-                  1000,
-                ]}
-              />
+              {i18n.language === "fr" && (
+                <Typical
+                  className="highlighted-text"
+                  loop={Infinity}
+                  steps={[
+                    "Ingénieur Full Stack",
+                    1000,
+                    "Ingénieur Frontend",
+                    1000,
+                    "Ingénieur Backend",
+                    1000,
+                  ]}
+                />
+              )}
+              {i18n.language === "en" && (
+                <Typical
+                  className="highlighted-text"
+                  loop={Infinity}
+                  steps={[
+                    "Fullstack Engineer",
+                    1000,
+                    "Frontend Engineer",
+                    1000,
+                    "Backend Engineer",
+                    1000,
+                  ]}
+                />
+              )}
             </h1>
           </div>
           <div className="profile-options">

@@ -21,7 +21,7 @@
   },
   "contact": {
     "translate-button": "EN",
-    "translated-text": "Contact"
+    "translated-text": "Contact "
   },
   "salutation": {
     "translate-button": "EN",
@@ -57,7 +57,7 @@
   },
   "about_me_paragraph": {
     "translate-button": "EN",
-    "translated-text": "Gratuated as an Advanced Technologies engineer from ENSTAB. Passionate, self-motivated and team-worker, excited to be at the deployment phase of my new career as a web developer. I am ambitious, adventurous, assiduous, animated and an alliteration advocate.My aim is to realize new challenges and join a huge company which is leader in the new technologies field."
+    "translated-text": "Gratuated as an Advanced Technologies engineer from ENSTAB. Passionate, self-motivated and team-worker. I am ambitious, adventurous, assiduous, animated and an alliteration advocate.My aim is to realize new challenges and join a huge company which is leader in the new technologies field."
   },
   "about_me_cv": {
     "translate-button": "EN",
@@ -142,5 +142,29 @@
   "project_two": {
     "translate-button": "EN",
     "translated-text": "E-commerce that facilitates the sale/purchase online, using Paypal as a payment method."
+  },
+  "work_at": {
+    "translate-button": "EN",
+    "translated-text": "I work at"
+  },
+  "work_one": {
+    "translate-button": "EN",
+    "translated-text": "Development of PodiumESG, it is a marketplace for Podium360 (Podyam product)."
+  },
+  "work_two": {
+    "translate-button": "EN",
+    "translated-text": "Development of responsive web pages and graphics interactive displays showing user activity on the product."
+  },
+  "work_three": {
+    "translate-button": "EN",
+    "translated-text": "Implemented a faster global search mechanism in the whole application: Elastic search."
+  },
+  "work_four": {
+    "translate-button": "EN",
+    "translated-text": "Work in an Agile team with a focus on user interface development and admin."
+  },
+  "position": {
+    "translate-button": "FR",
+    "translated-text": "Current position"
   }
 }

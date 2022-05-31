@@ -1,6 +1,7 @@
 import "./App.css";
 import Profile from "./PortfolioContainer/Home/Profile";
 import AboutMe from "./PortfolioContainer/AboutMe/AboutMe";
+import Occupation from "./PortfolioContainer/Occupation/Occupation";
 import Projects from "./PortfolioContainer/Projects/Projects";
 import Skills from "./PortfolioContainer/Skills/Skills";
 import ContactMe from "./PortfolioContainer/ContactMe/ContactMe";
@@ -15,6 +16,7 @@ function App() {
       <Appbar t={t} />
       <Profile t={t} />
       <AboutMe t={t} />
+      <Occupation t={t} />
       <Skills t={t} />
       <Projects t={t} />
       <ContactMe t={t} />

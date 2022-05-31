@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  CloseIcon,
-  Icon,
   SidebarContainer,
   SidebarLink,
   SidebarMenu,
@@ -14,9 +12,6 @@ import Lang from "./../Lang/Lang";
 const Sidebar = ({ isOpen, handleOpen, t }) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={handleOpen} className="sidebar">
-      <Icon onClick={handleOpen}>
-        <CloseIcon />
-      </Icon>
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to="home" onClick={handleOpen}>
@@ -24,6 +19,9 @@ const Sidebar = ({ isOpen, handleOpen, t }) => {
           </SidebarLink>
           <SidebarLink to="about" onClick={handleOpen}>
             {t("about.translated-text")}
+          </SidebarLink>
+          <SidebarLink to="occupation" onClick={handleOpen}>
+            {t("position.translated-text")}
           </SidebarLink>
           <SidebarLink to="skills" onClick={handleOpen}>
             {t("skills.translated-text")}

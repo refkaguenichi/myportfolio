@@ -27,6 +27,18 @@ const Projects = ({t}) => {
               </span>
               <h5 className="text">findX MERN</h5>
               <p>{t("project_one.translated-text")}</p>
+              <div
+                style={{
+                  display: "flex",
+                  "flex-wrap": "wrap",
+                }}
+              >
+                <span className="key-word">React</span>
+                <span className="key-word">Material-ui</span>
+                <span className="key-word">Node</span>
+                <span className="key-word">Express</span>
+                <span className="key-word">MongoDB</span>
+              </div>
             </div>
           </div>
           <div className="proj-card">
@@ -42,6 +54,18 @@ const Projects = ({t}) => {
               </span>
               <h5 className="text">swiftShop MERN</h5>
               <p>{t("project_two.translated-text")}</p>
+              <div
+                style={{
+                  display: "flex",
+                  "flex-wrap": "wrap",
+                }}
+              >
+                <span className="key-word">React</span>
+                <span className="key-word">Material-ui</span>
+                <span className="key-word">Node</span>
+                <span className="key-word">Express</span>
+                <span className="key-word">MongoDB</span>
+              </div>
             </div>
           </div>
           <div className="proj-card">
